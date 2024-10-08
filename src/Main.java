@@ -30,6 +30,11 @@ public class Main {
                 voto = scanner.nextInt();
                 //enquanto isso
             } while (voto != 99 && voto != 88 && voto != 77 && voto != 66);
+            //burlar uma urna
+            //if (voto == 77){
+                //voto = 88;
+            //}
+
             //Contabiliza o total de votos
             if (voto == 99) {
                 votosTaffe++;
